@@ -9,7 +9,7 @@ const PlayButton = (props) => {
         onChange={(event) => props.setCount(event.target.value)}
         type="range"
         class="form-range"
-        min="0"
+        min="1"
         max="5"
         step="1"
         id="customRange1"
